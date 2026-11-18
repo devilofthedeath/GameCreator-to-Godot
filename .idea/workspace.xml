@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7463287f-2747-440d-95c0-03f87a986c92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/converter/synth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/templates/entities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/templates/gamestate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/templates/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/templates/ui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GameCreator-to-Godot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GameCreator-to-Godot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7463287f-2747-440d-95c0-03f87a986c92" name="Changes" comment="better conv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter/assets.py" beforeDir="false" afterPath="$PROJECT_DIR$/converter/assets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/converter/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter/level_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/converter/level_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter/object_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/converter/object_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +22,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "devilofthedeath"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/devilofthedeath/GameCreator-to-Godot.git",
+    "accountId": "9b32bdb5-985a-43c3-9532-82e42bc0ee0a"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0753629892306726" />
-      <entry key="MS500" value="1.596254436165316" />
-      <entry key="S2" value="1.8787349618012161" />
-      <entry key="S5" value="1.949605370968844" />
-      <entry key="S10" value="1.9744769730316072" />
-      <entry key="S30" value="1.9914188996851716" />
-      <entry key="S60" value="1.9957002057271915" />
-      <entry key="M2" value="1.9978477868528803" />
-      <entry key="M5" value="1.9991385582596644" />
-      <entry key="M10" value="1.9995691863296228" />
-      <entry key="M15" value="1.999712770260197" />
-      <entry key="M30" value="1.9998563748160016" />
-      <entry key="H1" value="1.9999281848292916" />
-      <entry key="H2" value="1.9999640917699453" />
-      <entry key="H4" value="1.9999820457237947" />
-      <entry key="D1" value="1.9999970075982465" />
-      <entry key="W1" value="1.9999995725134871" />
+      <entry key="MS100" value="1.0000569513609747" />
+      <entry key="MS500" value="1.170657115867619" />
+      <entry key="S2" value="2.596569423251561" />
+      <entry key="S5" value="4.062236460120884" />
+      <entry key="S10" value="4.890603099458202" />
+      <entry key="S30" value="5.593038894955848" />
+      <entry key="S60" value="5.791441735353394" />
+      <entry key="M2" value="5.894416375781015" />
+      <entry key="M5" value="5.9574488661118075" />
+      <entry key="M10" value="5.9786710968156305" />
+      <entry key="M15" value="5.9857688510933205" />
+      <entry key="M30" value="5.992930775177852" />
+      <entry key="H1" value="6.0066650000794155" />
+      <entry key="H2" value="6.141237732338656" />
+      <entry key="H4" value="6.533934792608107" />
+      <entry key="D1" value="7.605166889721137" />
+      <entry key="W1" value="7.938147046931398" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -79,23 +77,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.38989837546778555" />
-      <entry key="MS500" value="1.1813970175825386" />
-      <entry key="S2" value="1.7254736783799438" />
-      <entry key="S5" value="1.8828013319429162" />
-      <entry key="S10" value="1.9400855430924662" />
-      <entry key="S30" value="1.9797280354170235" />
-      <entry key="S60" value="1.989825931293056" />
-      <entry key="M2" value="1.9949034040847051" />
-      <entry key="M5" value="1.9979590617246699" />
-      <entry key="M10" value="1.9989791471154423" />
-      <entry key="M15" value="1.9993193461014236" />
-      <entry key="M30" value="1.999659630388327" />
-      <entry key="H1" value="1.9998298045270766" />
-      <entry key="H2" value="1.9999148995965803" />
-      <entry key="H4" value="1.9999574491315273" />
-      <entry key="D1" value="1.99999290809598" />
-      <entry key="W1" value="1.9999989868685863" />
+      <entry key="MS100" value="0.9659913403132446" />
+      <entry key="MS500" value="1.1625555700320012" />
+      <entry key="S2" value="2.59161114374964" />
+      <entry key="S5" value="4.058884368826039" />
+      <entry key="S10" value="4.88852294327758" />
+      <entry key="S30" value="5.592229100014279" />
+      <entry key="S60" value="5.791020246908256" />
+      <entry key="M2" value="5.8942013141363185" />
+      <entry key="M5" value="5.95736178279207" />
+      <entry key="M10" value="5.978627376806089" />
+      <entry key="M15" value="5.985739664644395" />
+      <entry key="M30" value="5.992916156884931" />
+      <entry key="H1" value="6.006657185419867" />
+      <entry key="H2" value="6.141230557533636" />
+      <entry key="H4" value="6.533926386278746" />
+      <entry key="D1" value="7.605163294371475" />
+      <entry key="W1" value="7.938146435841359" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -205,15 +203,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794949702318</updated>
-      <workItem from="1795000162647" duration="11146000" />
+      <workItem from="1795000162647" duration="11805000" />
     </task>
+    <task id="LOCAL-00001" summary="better conv">
+      <option name="closed" value="true" />
+      <created>1795029011279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1795029011279</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="better conv" />
+    <option name="LAST_COMMIT_MESSAGE" value="better conv" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GameCreator_to_Godot$main.coverage" NAME="main Coverage Results" MODIFIED="1795028558192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameCreator_to_Godot$main.coverage" NAME="main Coverage Results" MODIFIED="1795029218892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameCreator_to_Godot$diag.coverage" NAME="diag Coverage Results" MODIFIED="1795000721385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

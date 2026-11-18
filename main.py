@@ -56,7 +56,7 @@ def main():
     # Положи, например, подправленную сцену в workspace/overrides/objects/Obj_....tscn —
     # она переживёт любой перезапуск конвертера.
     applied = []
-    for sub in ["objects", "scripts", "levels", "sprites", "audio"]:
+    for sub in ["objects", "scripts", "levels", "sprites", "audio", "dialogue"]:
         src_dir = os.path.join(OVERRIDES_DIR, sub)
         if not os.path.isdir(src_dir):
             continue
