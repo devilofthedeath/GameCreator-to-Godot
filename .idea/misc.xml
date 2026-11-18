@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.11 (GameCreator-to-Godot)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (GameCreator-to-Godot)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="~\PycharmProjects\GameCreator-to-Godot\.venv" project-jdk-type="Python SDK" />
 </project>

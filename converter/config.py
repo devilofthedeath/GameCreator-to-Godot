@@ -4,6 +4,9 @@ INPUT_DIR = os.path.join("workspace", "input_game")
 RAW_DIR = os.path.join("workspace", "unpacked_files")
 SHEETS_DIR = os.path.join("workspace", "sprite_sheets")
 GODOT_DIR = os.path.join("workspace", "GodotProject")
+# Сюда кладём вручную подправленные сцены/скрипты — они перезаписывают
+# сгенерированные при каждом запуске main.py.
+OVERRIDES_DIR = os.path.join("workspace", "overrides")
 
 PALETTE_RGB = [
     (r * 51 / 255.0, g * 51 / 255.0, b * 51 / 255.0)
@@ -15,11 +18,11 @@ PALETTE_RGBA = [
     for r in range(6) for g in range(6) for b in range(6)
 ] + [(int(i * 255 / 38), int(i * 255 / 38), int(i * 255 / 38), 255) for i in range(39)] + [(0, 0, 0, 0)]
 
-def get_gc_color(idx_str: str, default_col: str = "Color(1, 1, 1, 1)") -> str:
+def get_gc_color(idx_str: str, default_col: str = "Color(1, 1, 1, 1)", alpha: float = 1.0) -> str:
     try:
-        idx = max(0, min(255, int(idx_str)))
+        idx = max(0, min(255, int(float(idx_str))))
         r, g, b = PALETTE_RGB[idx]
-        return f"Color({r:.3f}, {g:.3f}, {b:.3f}, 1)"
+        return f"Color({r:.3f}, {g:.3f}, {b:.3f}, {alpha:.3f})"
     except ValueError:
         return default_col
 
